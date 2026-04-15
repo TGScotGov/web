@@ -3,45 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Pages Site</title>
+    <title>My Blog</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
-            max-width: 700px;
+            background: #fafafa;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
             margin: 40px auto;
             padding: 0 20px;
-            line-height: 1.6;
         }
-        h1 {
-            color: #333;
+
+        .post {
+            background: white;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 6px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
-        .box {
-            padding: 15px;
-            background: #f5f5f5;
-            border-left: 4px solid #007acc;
-            margin: 20px 0;
+
+        .post h2 {
+            margin-top: 0;
+        }
+
+        .date {
+            color: #777;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            color: #777;
         }
     </style>
 </head>
 <body>
 
-    <h1>Welcome to Wisbeech GitHub Pages Site</h1>
+    <header>
+        <h1>My Blog</h1>
+        <p>Sharing my learning journey</p>
+    </header>
 
-    <p>This is my first website published using GitHub Pages.  
-    I'm learning HTML, Markdown, and GitHub as part of my Day 5 practice.
-    I have also learned that i need to save my work before i stage, comnmit and push
-    to my repository.</p>
+    <div class="container">
 
-    <div class="box">
-        <strong>What I learned today:</strong>
-        <ul>
-            <li>How to create a GitHub repository</li>
-            <li>How to enable GitHub Pages</li>
-            <li>How to write a basic HTML page</li>
-        </ul>
+        <div class="post">
+            <h2>Day 5 — Learning GitHub Pages</h2>
+            <p class="date">April 15, 2026</p>
+            <p>Today I learned how to publish a website using GitHub Pages. 
+            It was easier than I expected once I understood the steps. 
+            I also created my first blog layout using HTML and CSS.</p>
+        </div>
+
+        <div class="post">
+            <h2>My First Blog Post</h2>
+            <p class="date">April 14, 2026</p>
+            <p>This is my first blog post! I'm starting to learn HTML, Git, 
+            and GitHub. It's exciting to see my progress appear on a real website.</p>
+        </div>
+
     </div>
 
-    <p>You can edit this page anytime by updating the <code>index.html</code> file in my repository.</p>
+    <footer>
+        © 2026 My Blog
+    </footer>
 
 </body>
 </html>
+
