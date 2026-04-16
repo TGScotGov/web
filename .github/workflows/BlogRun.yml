@@ -1,0 +1,15 @@
+name: Blog Site Amendments
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  hello:
+    runs-on: windows-latest
+
+    steps:
+      - name: Say hello
+        run: echo "Tony made a change to your Blog code.""
+
+
