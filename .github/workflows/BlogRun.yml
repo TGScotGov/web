@@ -10,6 +10,6 @@ jobs:
 
     steps:
       - name: Say hello
-        run: echo "Tony made a change to your Blog code.""
+        run: echo "Tony made a change to your Blog code."
 
 
